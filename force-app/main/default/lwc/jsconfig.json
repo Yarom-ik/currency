@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/exchangeRate": [
+                "exchangeRate/exchangeRate.js"
+            ],
+            "c/reusableChildComponent": [
+                "parentWhereMultipleChildComponentExist/reusableChildComponent/reusableChildComponent.js"
+            ],
+            "c/parentWhereMultipleChildComponentExist": [
+                "parentWhereMultipleChildComponentExist/parentWhereMultipleChildComponentExist.js"
+            ],
+            "c/stepOne": [
+                "parentWhereMultipleChildComponentExist/stepOne/stepOne.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
